@@ -10,9 +10,9 @@ datagroup: angel_test_default_datagroup {
 
 persist_with: angel_test_default_datagroup
 
-explore: mara {
-  join: mbew {
-    sql_on: ${mara.matnr} = ${mbew.matnr} ;;
+explore: ekko {
+  join: ekpo {
+    sql_on: ${ekko.ebeln} = ${ekpo.ebeln} ;;
     relationship: one_to_many
   }
 }
